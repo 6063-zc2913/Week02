@@ -18,4 +18,6 @@ function draw() {
     ellipse(350,350,50,50);
     stroke("white");
     line(250,450, 350, 450);
+    fill(255);
+    ellipse(mouseX, mouseY,50,50);
 }
